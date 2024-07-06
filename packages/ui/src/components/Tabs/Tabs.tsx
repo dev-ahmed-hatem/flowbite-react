@@ -154,7 +154,7 @@ const TabsComponent = forwardRef<TabsRef, TabsProps>(
               tabIndex={index === focusedTab ? 0 : -1}
               style={{ zIndex: index === focusedTab ? 2 : 1 }}
             >
-              {tab.icon && <tab.icon className={theme.tablist.tabitem.icon} />}
+              {/* {tab.icon && <tab.icon className={theme.tablist.tabitem.icon} />} */}
               {tab.title}
             </button>
           ))}
